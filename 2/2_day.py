@@ -23,7 +23,6 @@ def pt1():
             if 'green' in gs and gs['green'] > mg:
                 pos = False
         if pos:
-            # print(i+1, game)
             ans += i+1
     return ans
 
